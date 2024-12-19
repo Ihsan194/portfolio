@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-secondary sticky-top" data-aos="fade-down"
+            data-aos-duration="1500">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <p class="fw-bolder font-monospace mb-0">Ihsan Ali</p>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./Resume.html">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./project.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="./Contact.html" tabindex="-1"
+                                aria-disabled="true">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="d-flex flex-wrap align-items-center justify-content-center text-center p-5">
+            <!-- Profile Image -->
+            <div class="m-3" data-aos="fade-down" data-aos-duration="1500">
+                <img src="./profile.jpg" class="img-fluid border bg-secondary p-2 rounded-circle" alt="Picture"
+                    style="max-width: 300px;">
+            </div>
+            <!-- Text Section -->
+            <div class="m-3">
+                <h1 class="fw-bold font-monospace" data-aos="fade-down" data-aos-duration="1500">Hello</h1>
+                <h4 class="fw-bold font-monospace mt-3 pt-2" data-aos="fade-down" data-aos-duration="1500">A bit about
+                    me</h4>
+                <p class="font-monospace text-light" data-aos="fade-up" data-aos-duration="1500">Hi, I'm Ihsan Ali, a
+                    passionate web developer with a strong focus on creating user-friendly and functional websites. I
+                    specialize in front-end and back-end development, turning ideas into reality with clean, efficient
+                    code and modern designs.</p>
+                <!-- Buttons Section -->
+                <div class="d-flex flex-wrap justify-content-center gap-3 mt-5 pt-4" data-aos="fade-up"
+                    data-aos-duration="1500">
+                    <a href="./Resume.html"
+                        class="border bg-warning d-flex justify-content-center align-items-center rounded-circle"
+                        style="width: 120px; height: 120px; text-decoration: none; color: rgb(0, 0, 0); font-size: 16px;">
+                        Resume
+                    </a>
+                    <a href="./project.html"
+                        class="border bg-danger d-flex justify-content-center align-items-center rounded-circle"
+                        style="width: 120px; height: 120px; text-decoration: none; color: rgb(0, 0, 0); font-size: 16px;">
+                        Projects
+                    </a>
+                    <a href="./Contact.html"
+                        class="border bg-info d-flex justify-content-center align-items-center rounded-circle"
+                        style="width: 120px; height: 120px; text-decoration: none; color: rgb(0, 0, 0); font-size: 16px;">
+                        Contact
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            easing: "ease-in-out",
+            once: true
+        });
+    </script>
+</body>
+
+</html>
